@@ -10,7 +10,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#fff"
         tools:context=".CrashActivity">
+
 
         <ScrollView
             android:layout_width="match_parent"
@@ -41,8 +43,9 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="20dp"
+                    android:gravity="center"
                     android:text="Sorry For the inconvenience"
-                    android:textAlignment="center"
+                    android:textColor="#000000"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/lottieAnimation" />
@@ -52,6 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="20dp"
+                    android:gravity="center"
                     android:orientation="vertical"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -59,10 +63,15 @@
 
                     <TextView
                         android:id="@+id/tvDescription"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:text="Sometimes our system has faults but no worry we already detected this issue.In next update we will fix this issue ,Please click on restart app button to continue our app."
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
 
                     <TextView
                         android:id="@+id/tvErrorLogs"
@@ -74,20 +83,23 @@
                         android:enabled="false"
                         android:text="Sometimes our system has faults but no worry we already detected this issue.In next update we will fix this issue ,Please click on restart app button to continue our app."
                         android:textAlignment="textStart"
-                        android:textColor="@color/black"
+                        android:textColor="#000000"
                         android:textColorLink="#0019CF"
                         android:visibility="gone" />
 
 
                 </LinearLayout>
 
-                <com.google.android.material.button.MaterialButton
+                <Button
                     android:id="@+id/btRestartApp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_background"
+                    android:padding="10dp"
                     android:text="Restart App"
+                    android:textColor="#fff"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -96,7 +108,6 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </ScrollView>
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -12,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CrashDetector"
         tools:targetApi="31">
-        <activity
-            android:name=".CrashActivity"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
