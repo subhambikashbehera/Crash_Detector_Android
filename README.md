@@ -6,17 +6,21 @@ In the dynamic world of mobile app development, crashes are an unfortunate reali
 To get started with the crash detector, follow these steps:
 
 1. Add the following dependency to your project's `build.gradle` file:
+ ```kotlin
 dependencies{
   ......
 	implementation 'com.github.subhambikashbehera:Crash_Detector_Android:1.1.0'
   ......
 }
-Add the following in the settings.gradle
+```  
+Add the following in the `settings.gradle`
+ ```kotlin
 maven { url 'https://jitpack.io' }
-2. In the Activity just add the following methods to get started and you are ready to find the all the crashes realted to that activity
-  handleUncaughtException()
-  e.g.
+```  
 
+3. In the Activity just add the following methods to get started and you are ready to find the all the crashes realted to that activity
+  e.g.
+ ```kotlin
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         handleUncaughtException()
     }
 }
+```  
+
 
 ## License
 To use this libray nothing to do with this only you need my permission .you can seek permission by asking permission request on subhambikashbehera@gmail.com
