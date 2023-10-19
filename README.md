@@ -18,7 +18,7 @@ dependencies{
 maven { url 'https://jitpack.io' }
 ```  
 
-3. In the Activity just add the following methods to get started and you are ready to find the all the crashes realted to that activity
+3. In the Activity just add the following methods to get started and you are ready to find the all the crashes related to that activity
   e.g.
  ```kotlin
 class MainActivity : AppCompatActivity() {
