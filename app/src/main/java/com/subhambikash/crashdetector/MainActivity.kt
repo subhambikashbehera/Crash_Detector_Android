@@ -16,7 +16,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        handleUncaughtException()
+
+        handleUncaughtException(showLogs = true)
 
 
         CoroutineScope(Dispatchers.Main).launch {

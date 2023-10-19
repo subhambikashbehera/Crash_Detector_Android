@@ -4,7 +4,8 @@
     <application>
         <activity
             android:name=".CrashActivity"
-            android:exported="false" />
+            android:exported="false"
+            />
     </application>
 
 </manifest>
