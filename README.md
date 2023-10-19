@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 	or
 	handleUncaughtException(showLogs = false) // it will not show any error logs in both release and debug build
 
-	But in all above cases the resrat app button always visible 
+	But in all above cases the restart app button always visible 
  
 ```
 
