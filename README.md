@@ -2,7 +2,9 @@
 
 In the dynamic world of mobile app development, crashes are an unfortunate reality. They can occur due to a variety of reasons, from unexpected user interactions to network issues. Detecting and addressing these crashes quickly is crucial for maintaining a positive user experience.
 
-![Screenshot_2023-10-20-09-16-01-25_15c245f759578505c4e798fbc7bf786e (1)](https://github.com/subhambikashbehera/Crash_Detector_Android/assets/69251887/1f33c7ee-7c8c-4c90-980c-fd30e93c99fc)
+![Screenshot_2023-10-20-09-16-01-25_15c245f759578505c4e798fbc7bf786e (1)](https://github.com/subhambikashbehera/Crash_Detector_Android/assets/69251887/470846ea-f58b-4b07-ab91-5cb39912b5f0)
+![Screenshot_2023-10-20-09-15-04-94_15c245f759578505c4e798fbc7bf786e (1)](https://github.com/subhambikashbehera/Crash_Detector_Android/assets/69251887/61ddeaf8-1764-43d2-bfed-759caa956be2)
+![Screenshot_2023-10-20-09-15-22-86_15c245f759578505c4e798fbc7bf786e (1)](https://github.com/subhambikashbehera/Crash_Detector_Android/assets/69251887/10f22457-3cab-4558-b9b2-e8a4d1c0adaa)
 ## Installation
 To get started with the crash detector, follow these steps:
 
