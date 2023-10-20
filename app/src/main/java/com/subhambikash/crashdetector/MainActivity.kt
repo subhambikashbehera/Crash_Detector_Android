@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.subhambikash.crashdetector.databinding.ActivityMainBinding
+import com.techolution.crashdetector.handleUncaughtException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -15,7 +16,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        handleUncaughtException()
+
+        handleUncaughtException(showLogs = true)
 
 
         CoroutineScope(Dispatchers.Main).launch {
